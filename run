@@ -1,4 +1,0 @@
-#!/usr/bin/env bash
-as -msyntax=intel main.asm -o main.o
-ld -b elf64-x86-64 main.o -o main
-./main
